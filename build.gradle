@@ -1,6 +1,6 @@
 
 task test {
-
+	println '---------------- ${GitTag} -----------------------'
 }
 
 task clean(type: Delete) {
