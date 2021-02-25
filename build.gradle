@@ -1,6 +1,7 @@
+String val = System.getenv("GitTag")
 
 task test {
-	println '---------------- ${GitTag} -----------------------'
+	println '---------------- ${val} -----------------------'
 }
 
 task clean(type: Delete) {
