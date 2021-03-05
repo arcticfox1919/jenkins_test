@@ -1,4 +1,9 @@
 
+task assembleDebug{
+    doLast{
+        println '---------------- 这是一个打包任务 -----------------------'
+    }
+}
 
 task test {
 	println '---------------- Hello,Jenkins!!! -----------------------'
